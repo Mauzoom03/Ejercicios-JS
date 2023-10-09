@@ -1,4 +1,4 @@
-git add .console
+
 if(number1 === 10){
     console.log('number1 es estrictamente igual a 10')
 }
