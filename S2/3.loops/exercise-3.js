@@ -6,10 +6,12 @@ const placesToTravel = [
     {id: 44, name: 'Filipinas'},
     {id: 59, name: 'Madagascar'}
 ]
-for (let index = o; index < placesToTravel.length; i++) {
-    const element = placesToTravel[index];
-    if (element.id === 11 || element.id === 40) {
-        placesToTravel.splice(index,1);
-    }
+for (let i = 0 ; i < placesToTravel.length ; i++) {
+    let place = placesToTravel[i];
+   
+ if (place.id === 11 || place.id === 40) {
+placesToTravel.splice(index,1);
+i--
+}
 }
 console.log(placesToTravel);

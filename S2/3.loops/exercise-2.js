@@ -4,6 +4,6 @@ const alien = {
     planet: 'Eden',
     weight: '259kg'
 }
-for (const key in alien) {
-    console.log("Propiedad: " + key + ", valor: " + alien[key]);
+for (const property in alien) {
+    console.log(property +  ": " + alien[property]);
 }
