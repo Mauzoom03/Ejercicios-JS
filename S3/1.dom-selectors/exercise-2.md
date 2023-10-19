@@ -9,7 +9,7 @@ Dado el siguiente html usa querySelector para mostrar por consola el p con el id
     <title>Document</title>
 </head>
 <body>
-    <p id="pillado">Aqui estoy 8)</p>
+    <p id="pillado">Aqui estoy</p>
 </body>
 </html>
 ```
