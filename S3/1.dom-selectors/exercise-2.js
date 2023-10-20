@@ -1,2 +1,2 @@
-const id = document.querySelector(".pillado");
-console.log("pillado");
+const id = document.querySelector("#pillado");
+console.log("#pillado");

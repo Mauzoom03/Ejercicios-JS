@@ -1,1 +1,1 @@
-const div = document.createElement("div");
+const div$$ = document.createElement("div");
