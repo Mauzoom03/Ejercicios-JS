@@ -1,3 +1,2 @@
-const h2$$ = document.querySelector(".fn-insert-here");
-const createParrafo$$=  document.createTextNode('Wubba Lubba dub dub');
-h2$$.appendChild(createParrafo$$);
+const h2$$ = document.querySelector("h2$$.fn-insert-here");
+h2$$.textContent='Wubba Lubba dub dub';

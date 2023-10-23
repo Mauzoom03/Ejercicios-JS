@@ -1,3 +1,2 @@
-for(item of document.querySelectorAll("span")){
-    console.log(item.textContent); 
-}
+    const element$$= document.querySelectorAll("[data-function='testMe']");
+    console.log(element$$); 

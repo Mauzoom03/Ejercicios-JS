@@ -29,11 +29,15 @@ const users = [
     },
 ]
 
+
+
+
+
 let totalVolume = 0 ;
 let totalSounds = 0 ;
 for (const user of users) {
     for (const sound in user.favoritesSounds) {
-        totalVolume += user.favoritesSounds[Sound].volume ;
+        totalVolume += user.favoritesSounds[sound].volume ;
         totalSounds ++;
     }
 }

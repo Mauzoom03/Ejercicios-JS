@@ -29,16 +29,22 @@ const users = [
     },
 ]
 
+
+
+
+
+
+
+
+
 const soundCount=[]
 for (const user of users) {
     for (const sound in user.favoritesSounds) {
-          if (soundCount[sound]){
-            soundCount[sound] ++;
-          } else {
-            soundCount[sound]= 1 ;
+          if (!soundCount.hasOwnProperty(sound)){
+            soundCount[sound] = 0;
           }
+
+          soundCount[sound] += 1;
     }
 }
-for (const sound in soundCount) {
-    console.log("El sonido "+ {sound} +  "ha sido agregado "+ {soundCount[sound]} + "como favorito.");
-}
+console.log(soundCount);

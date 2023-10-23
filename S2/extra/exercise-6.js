@@ -1,12 +1,9 @@
 function swap (array,index1,index2 ) {
-    if (index1 >= 0 && index1 < array.length && index2 >= 0 && index2 < array.length ) {
-        const temp = array[index1];
-        array[index1] = array[index2];
-        array[index2] = temp;   
-    } else {
-console.log("Índices inválidos. No se puede realizar el intercambio.");
-    }
-    return array;
+ let value1 = array[index1];
+ let value2 = array[index2];
+ array[index1] = array[index2];
+ array[index2] = value1;
+ return array;
 }
 
 // Ejemplo de uso de la función

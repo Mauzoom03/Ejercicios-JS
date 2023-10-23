@@ -1,5 +1,4 @@
 
-for(item of document.querySelectorAll("p")){
-    console.log(item.textContent);
-}
+const p$$ = document.querySelectorAll("p")
+    console.log(p$$);
 

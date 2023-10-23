@@ -13,5 +13,5 @@ if (!uniqueCategories.includes(category)) {
 }
 }
 }
-console.log("uniqueCategories");
+console.log(uniqueCategories);
 

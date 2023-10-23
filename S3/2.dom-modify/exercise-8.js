@@ -1,6 +1,4 @@
-const divSelect1$$ = document.querySelector("div")
-if(divSelect1$$) {
-    const createP$$=document.createElement("p");
-    createP$$.textContent="Voy en medio";
-    divSelect1$$.appendChild(createP$$);
-}
+const p$$ = document.createElement('p');
+p$$.textContent = 'Voy en medio';
+const secondDiv$$ = document.querySelector('div:nth-child(2)');
+document.body.insertBefore(p$$,secondDiv$$);
