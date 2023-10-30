@@ -10,14 +10,16 @@ document.body.appendChild(countryList);
 
     countries.forEach(country => {
       const div$$ = document.createElement("div");
-      const h4$$ = document.createElement("h4") ;
-      const img$$ = document.createElement("img");
-      
-      h4$$.textContent = country.title;
-      img$$.src = country.imgUrl;
-
-      div$$.appendChild(h4);
-      div$$.appendChild(img$$);
       countryList.appendChild(div);
+
+      const h4$$ = document.createElement("h4") ;
+      h4$$.textContent = country.title;
+      div$$.appendChild(h4);
+
+      const img$$ = document.createElement("img");
+      img$$.src = country.imgUrl;
+      div$$.appendChild(img$$);
+  
+  
     });
 
