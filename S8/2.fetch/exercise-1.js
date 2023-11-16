@@ -1,7 +1,7 @@
 fetch('https://api.agify.io?name=michael')
 .then(response => {
     if(!response.ok){
-        throw new Error('Hemos tenido un problema');
+        throw new Error('Problema en el servidor');
     }
    return response.json();
 })
@@ -9,5 +9,5 @@ fetch('https://api.agify.io?name=michael')
     console.log(data);
 })
 .catch (error => {
-console.error('Hubo un error: ' ,error);
+console.error('error: ' ,error);
 });

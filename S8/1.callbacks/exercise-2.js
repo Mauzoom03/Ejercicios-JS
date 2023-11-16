@@ -18,8 +18,8 @@ userAnwsers.push(result);
 }
 
 
-father("¿Aceptas los términos y condiciones?", confirmExample);
-father("Ingresa tu nombre:", promptExample);
+father("confirmas", confirmExample);
+father("Promptea", promptExample);
 father("¿Estás seguro?", confirmExample);
 
 console.log(userAnwsers);

@@ -14,7 +14,7 @@ submitBtn$$.addEventListener('click',() => {
         fetch (url)
         .then(response => {
             if(!response.ok){
-                throw new Error ('Hemos tenido un problema');
+                throw new Error ('Error');
             }
             return response.json();
         })

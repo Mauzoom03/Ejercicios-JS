@@ -5,8 +5,16 @@
 
 .b-grid img {
     width: 100px;
-    margin: 10px;
     border: 3px solid #48ffc2;
     border-radius: 10px;
     background-color: aquamarine;
+}
+img.hidden {
+    display:none;
+}
+.item {
+    background-color: lightblue;
+    width: 100px;
+    margin: 10px;
+    height: 100px;
 }
